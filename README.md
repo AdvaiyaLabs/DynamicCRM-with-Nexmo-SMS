@@ -17,7 +17,7 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 	SMS that will be sent to the Sales Manager: “**An opportunity &lt;&lt;Title&gt;&gt; for &lt;&lt;Account name&gt;&gt; has been updated with probable value &lt; Budget value&gt;**.”
 
-##<span id="_Toc432770619" class="anchor"><span id="_Toc440550375" class="anchor"></span></span>Prerequisite
+##Prerequisite
 
 -   Nexmo subscription and corresponding Nexmo API key and Secret key to consume Nexmo services. To access the Nexmo’s API keys, see appendix section
 
@@ -27,7 +27,7 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 -   Each assigned manager should have a mobile number updated in the CRM System.
 
-##<span id="_Toc432770620" class="anchor"><span id="_Toc440550376" class="anchor"></span></span>Features
+##Features
 
 -   Send SMS to the respective manager when the opportunity’s budget amount is more than the threshold value.
 
@@ -39,13 +39,13 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 -   Opportunity creation process will not be impacted in case SMS sending fails.
 
-##Steps to install Dynamic CRM with Nexmo SMS 
+##Steps to install Dynamic CRM with Nexmo SMS App
 
 1.	Visit the target Git repository using the [ URL ] (https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Package/DynamicCRMwithNexmoSMS_1_0_0_0_managed.zip).
 
 2.  Click on **Raw** as shown, app's zip file will get downloaded.
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image-raw.png" width="300">
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image-raw.png" width="300">
 
 1.  Login to Dynamic CRM Online
 
