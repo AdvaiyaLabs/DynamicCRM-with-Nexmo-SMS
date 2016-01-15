@@ -39,6 +39,12 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 ##Steps to install Dynamic CRM with Nexmo SMS 
 
+1.	Visit the target Git repository using the [ URL ] (https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Package/DynamicCRMwithNexmoSMS_1_0_0_0_managed.zip).
+
+2.  Click on **Raw** as shown, app's zip file will get downloaded.
+
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image-raw.png" width="300">
+
 1.  Login to Dynamic CRM Online
 
 2.  Dynamic CRM dashboard will appear as below:
