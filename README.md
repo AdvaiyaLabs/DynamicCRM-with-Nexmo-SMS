@@ -1,4 +1,4 @@
-<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image1.png" width=200>
+<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image1.png" width=200>
 
 
 ##Introduction
@@ -43,49 +43,49 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 2.  Dynamic CRM dashboard will appear as below:
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image4.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image4.png" width=600>
 
-3.  On the dashboard, click on menu <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image5.png" width=600> icon. Select ***Settings &gt; Solutions*** for package installation as shown in the image below:
+3.  On the dashboard, click on menu <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image5.png" width=600> icon. Select ***Settings &gt; Solutions*** for package installation as shown in the image below:
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image6.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image6.png" width=600>
 
 4.  On ***All Solutions*** screen, click on **Import** button to import solution package.
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image7.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image7.png" width=600>
 
 5.  On **Import Solution** wizard, click on the **Choose file** button to choose the file to be uploaded.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image8.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image8.png" width=600>
 
 6.  Select ZIP file “**DynamicCRMwithNexmoSMS\_1\_0\_0\_0\_managed.zip**” stored on local system and click on **Open** button.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image9.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image9.png" width=600>
 
 7.  The selected zip file will be added in the wizard, click on **Next**.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image10.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image10.png" width=600>
 
 8.  Review the Solution information and click on **Next** button
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image11.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image11.png" width=600>
 
 9.  Click on **Import** button, file uploading process starts.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image12.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image12.png" width=600>
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image13.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image13.png" width=600>
 
 10.  Click on **Close** button after successful installation of the solution .
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image14.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image14.png" width=600>
 
 11.  The installed package will be added in **All solutions**.
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image15.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image15.png" width=600>
 
 12.  Click on the **Package name**, it will open configuration form for Nexmo setting.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image16.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image16.png" width=600>
 
 13.  Provide the following details:
 
@@ -101,21 +101,21 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 16.  On **All Solutions** screen, select **DynamicCRMwithNexmoSMS** solution and click on **Publish All Customization** button.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image17.png" width=600><span id="_Toc440550378" class="anchor"></span>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image17.png" width=600><span id="_Toc440550378" class="anchor"></span>
 
 ##Steps to use the Dynamic CRM with Nexmo SMS 
 
-1.  Click on the <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image5.png" width=600> icon, select **Sales** tab and click on **Opportunities** to create an opportunity.
+1.  Click on the <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image5.png" width=600> icon, select **Sales** tab and click on **Opportunities** to create an opportunity.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image18.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image18.png" width=600>
 
 2.  Click on the **New** button to add a new opportunity.
 
-    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image19.png" width=600>
+    <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image19.png" width=600>
 
 3.  Fill the opportunity details with at least these mandatory fields (Topic, Account and Budget) and click on **Save and Close** button.
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image20.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image20.png" width=600>
 
 4.  New Opportunity is created and SMS is also delivered to Manager.
 
@@ -134,4 +134,4 @@ Nexmo API Keys
 
 -   Key and Secret will display in the top bar as shown in the below image:
 
-	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/docs/image21.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image21.png" width=600>
