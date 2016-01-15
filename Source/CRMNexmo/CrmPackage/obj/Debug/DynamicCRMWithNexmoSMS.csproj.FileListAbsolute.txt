@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\CRMNexmo.Plugins.dll
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\CRMNexmo.Plugins.pdb
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\obj\Debug\DynamicCRMWithNexmoSMS.csprojResolveAssemblyReference.cache

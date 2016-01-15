@@ -1,0 +1,8 @@
+C:\Projects\Nexmo\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\CRMNexmo.Plugins.dll
+C:\Projects\Nexmo\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Projects\Nexmo\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\CRMNexmo.Plugins.pdb
+C:\Projects\Nexmo\CRMNexmo\CRMNexmo\CrmPackage\obj\Debug\CrmPackage.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\DynamicCRMWithNexmoSMS.Plugins.dll
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\bin\Debug\DynamicCRMWithNexmoSMS.Plugins.pdb
+C:\Users\Administrator\Desktop\CRMNexmo (2)\CRMNexmo\CRMNexmo\CrmPackage\obj\Debug\CrmPackage.csprojResolveAssemblyReference.cache

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{88A30576-7583-4F75-8136-5EFD2C14ADFF}") = "DynamicCRMWithNexmoSMS", "CRMNexmo\CrmPackage\CrmPackage.csproj", "{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A551402F-F12E-4AE6-A796-3AF9C90A2678} = {A551402F-F12E-4AE6-A796-3AF9C90A2678}
+		{08C5AF4F-FEC4-4722-B810-43C38823DCE6} = {08C5AF4F-FEC4-4722-B810-43C38823DCE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "CRMNexmo\Plugins\Plugins.csproj", "{A551402F-F12E-4AE6-A796-3AF9C90A2678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication", "CRMNexmo\SilverlightApplication\SilverlightApplication.csproj", "{08C5AF4F-FEC4-4722-B810-43C38823DCE6}"
+EndProject
+Global
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C90D0B2-25D4-4D6C-A85A-5C5E5E4BFEDA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A551402F-F12E-4AE6-A796-3AF9C90A2678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A551402F-F12E-4AE6-A796-3AF9C90A2678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A551402F-F12E-4AE6-A796-3AF9C90A2678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A551402F-F12E-4AE6-A796-3AF9C90A2678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C5AF4F-FEC4-4722-B810-43C38823DCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C5AF4F-FEC4-4722-B810-43C38823DCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C5AF4F-FEC4-4722-B810-43C38823DCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C5AF4F-FEC4-4722-B810-43C38823DCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

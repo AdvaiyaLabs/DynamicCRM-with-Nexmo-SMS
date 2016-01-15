@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9c90d0b2-25d4-4d6c-a85a-5c5e5e4bfeda</ProjectGuid>
+    <ProjectTypeGuids>{88A30576-7583-4F75-8136-5EFD2C14ADFF}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMNexmo.CrmPackage</RootNamespace>
+    <AssemblyName>CRMNexmo.CrmPackage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OutputFile>CrmPackage.zip</OutputFile>
+    <Name>CrmPackage</Name>
+    <MainFile>WebResources\Web Page (HTML)\NexmoConfiguration.htm</MainFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="WebResources\Script" />
+    <Folder Include="WebResources\Silverlight %28XAP%29\" />
+    <Folder Include="WebResources\Style Sheet %28CSS%29\" />
+    <Folder Include="WebResources\Web Page %28HTML%29\" />
+    <RegisterPlugin Include="RegisterFile.crmregister">
+      <DisplayName>RegisterFile</DisplayName>
+      <UniqueName>new_RegisterFile</UniqueName>
+      <WebResourceType>NotSupported</WebResourceType>
+    </RegisterPlugin>
+    <Folder Include="WebResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Plugins\Plugins.csproj">
+      <Name>Plugins</Name>
+      <Project>{a551402f-f12e-4ae6-a796-3af9c90a2678}</Project>
+      <Private>True</Private>
+      <SilverlightApplication>False</SilverlightApplication>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CRMWebResource Include="WebResources\Script\additional-methods.min.js">
+      <DisplayName>additional_methods.min</DisplayName>
+      <UniqueName>new_additional_methods.min.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\Configuration.js">
+      <DisplayName>Configuration</DisplayName>
+      <UniqueName>new_Configuration.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery-1.7.1.min.js">
+      <DisplayName>jquery_1.7.1.min</DisplayName>
+      <UniqueName>new_jquery_1.7.1.min.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery-ui-1.8.18.custom.css">
+      <DisplayName>jquery_ui_1.8.18.custom</DisplayName>
+      <UniqueName>new_jquery_ui_1.8.18.custom.css</UniqueName>
+      <WebResourceType>CascadingStylesheet</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery-ui-1.8.18.custom.min.js">
+      <DisplayName>jquery_ui_1.8.18.custom.min</DisplayName>
+      <UniqueName>new_jquery_ui_1.8.18.custom.min.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery.tooltip.min.js">
+      <DisplayName>jquery.tooltip.min</DisplayName>
+      <UniqueName>new_jquery.tooltip.min</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery.validate.js">
+      <DisplayName>jquery.validate</DisplayName>
+      <UniqueName>new_jquery.validate.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jquery.validate.min.js">
+      <DisplayName>jquery.validate.min</DisplayName>
+      <UniqueName>new_jquery.validate.min.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\json2.js">
+      <DisplayName>json2</DisplayName>
+      <UniqueName>new_json2</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\jsrender.js">
+      <DisplayName>jsrender</DisplayName>
+      <UniqueName>new_jsrender</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\SDK.MetaData.js">
+      <DisplayName>SDK.MetaData</DisplayName>
+      <UniqueName>new_SDK.MetaData.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Script\SDK.Soap.js">
+      <DisplayName>SDK.Soap</DisplayName>
+      <UniqueName>new_SDK.Soap.js</UniqueName>
+      <WebResourceType>Script</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Style Sheet %28CSS%29\Configuration.css">
+      <DisplayName>Configuration</DisplayName>
+      <UniqueName>new_Configuration.css</UniqueName>
+      <WebResourceType>CascadingStylesheet</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Web Page %28HTML%29\Configuration.htm">
+      <DisplayName>Configuration</DisplayName>
+      <UniqueName>new_Configuration</UniqueName>
+      <WebResourceType>WebPage</WebResourceType>
+    </CRMWebResource>
+    <CRMWebResource Include="WebResources\Web Page %28HTML%29\nexmo-logo.png">
+      <DisplayName>nexmo_logo</DisplayName>
+      <UniqueName>new_nexmo_logo.png</UniqueName>
+      <WebResourceType>PNG</WebResourceType>
+    </CRMWebResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\CRM\Microsoft.CrmDeveloperTools.12.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+			 Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

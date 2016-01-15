@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="DynamicCRMWithNexmoSMS.Plugins.dll" Id="f6943f35-425c-e511-8112-c4346bada5bc" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <Plugin Description="Plug-in to PostOpportunityCreate" FriendlyName="PostOpportunityCreate" Name="DynamicCRMWithNexmoSMS.Plugins.PostOpportunityCreate" Id="359262e1-f660-e511-8112-c4346bada5bc" TypeName="DynamicCRMWithNexmoSMS.Plugins.PostOpportunityCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;settings APIKey='' APISecret='' FromUser=''  Threshold='' EnableNexmoSMS='false'  /&gt;" Name="PostOpportunityCreate" Description="Post-Operation of Opportunity Create" Id="369262e1-f660-e511-8112-c4346bada5bc" MessageName="Create" Mode="Asynchronous" PrimaryEntityName="opportunity" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="PostImage" Id="399262e1-f660-e511-8112-c4346bada5bc" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostOpportunityUpdate" FriendlyName="PostOpportunityUpdate" Name="DynamicCRMWithNexmoSMS.Plugins.PostOpportunityUpdate" Id="fe8f33da-e87b-e511-8114-c4346bacbe48" TypeName="DynamicCRMWithNexmoSMS.Plugins.PostOpportunityUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;settings APIKey='' APISecret='' FromUser=''  Threshold='' EnableNexmoSMS='false'  /&gt;" Name="PostOpportunityUpdate" Description="Post-Operation of Opportunity Update" Id="019033da-e87b-e511-8114-c4346bacbe48" MessageName="Update" Mode="Asynchronous" PrimaryEntityName="opportunity" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="PreImage" Id="069033da-e87b-e511-8114-c4346bacbe48" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="PostImage" Id="079033da-e87b-e511-8114-c4346bacbe48" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+</Register>
