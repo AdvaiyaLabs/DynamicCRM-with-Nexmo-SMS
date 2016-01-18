@@ -107,7 +107,7 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 15.  Click on the **Close** button from the top.
 
-16.  On **All Solutions** screen, select **DynamicCRMwithNexmoSMS** solution and click on **Publish All Customization** button.
+16.  On **All Solutions** screen, select **DynamicCRMwithNexmoSMS** solution and click on **Publish All Customizations** button.
 
     <img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image17.png" width=600><span id="_Toc440550378" class="anchor"></span>
 
@@ -125,7 +125,7 @@ Dynamic CRM with Nexmo SMS solution for Microsoft Dynamic CRM integrates Nexmo S
 
 	<img src="https://github.com/AdvaiyaLabs/DynamicCRM-with-Nexmo-SMS/blob/master/Docs/image20.png" width=600>
 
-4.  New Opportunity is created and SMS is also delivered to Manager.
+4.  New opportunity is created and the SMS is delivered to the manager if the budget value is greater than the defined threshold value.
 
 5.  Manager will receive an SMS as per the following format:
 
